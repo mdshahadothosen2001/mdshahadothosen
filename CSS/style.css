@@ -61,8 +61,10 @@ a {
 }
 
 img {
+
   max-width: 100%;
   height: auto;
+  
 }
 
 .container {
@@ -236,14 +238,22 @@ margin-bottom: 3rem;
 }
 .projects__subtitle,
 .projects__title{
+
+  background-color: rgba(0, 0, 0, 69);
   color: #fff;
 }
 .projects__subtitle{
   font-size: var(--smaller-font-size);
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem;
 }
 .projects__title{
   font-size: var(--h3-font-size);
   margin-bottom: 0.77rem;
+  width: 26rem;
+  height: 2rem;
+  padding: 0.5rem;
 }
 
 .projects__button
@@ -251,6 +261,10 @@ margin-bottom: 3rem;
   padding: 0.5rem;
 }
 
+.projects__card{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
 .projects__card:hover .projects__modal{
   bottom:0;
 }
@@ -322,3 +336,10 @@ margin-bottom: 4rem;
   color: rgb(87, 86, 86);
   font-size: var(--smaller-font-size);
 }
+
+#icon{
+  width: 3rem;
+  height: 3rem;
+  color: blueviolet;
+}
+
